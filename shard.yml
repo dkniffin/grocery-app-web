@@ -1,0 +1,26 @@
+name: grocery_app_web
+version: 0.1.0
+
+authors:
+  - Derek Kniffin <derek.kniffin@gmail.com>
+
+targets:
+  grocery_app_web:
+    main: src/grocery_app_web.cr
+
+crystal: 0.28.0
+
+dependencies:
+  lucky:
+    github: luckyframework/lucky
+    version: ~> 0.13
+  authentic:
+    github: luckyframework/authentic
+    version: ~> 0.3
+  carbon:
+    github: luckyframework/carbon
+    version: ~> 0.1
+
+  lucky_flow:
+    github: luckyframework/lucky_flow
+    version: ~> 0.4
